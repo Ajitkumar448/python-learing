@@ -4,7 +4,7 @@ match x: # to use the match case statement to check the value of x
         print("Zero") # to print "Zero" if x is 0
     case 1: # to check if x is 1
         print("One") # to print "One" if x is 1
-    case _ if x != 100: # to check if x is not 100
+    case _ if 0 < x != 100: # to check if x is not 100
         print("Not Hundred") # to print "Not Hundred" if x is not 100
     case _ if x < 0: # to check if x is less than 0
         print("Negative") # to print "Negative" if x is less than 0

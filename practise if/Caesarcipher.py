@@ -15,8 +15,9 @@ def encrypt(text,shift):
 def decrypt(text,shift):
     return caesar(text,shift,encrypt=False) # to decrypt the text using the caesar function
 
-encrypted_text = "Kll Vlbd"# to encrypt the text  shift of 3
+encrypted_text = encrypt("Hello World", 3) # to encrypt the text with a shift of 3
 decrypted_text = decrypt(encrypted_text, 3) # to decrypt the encrypted text with a shift of 3
+print(encrypted_text) # to print the encrypted text
 print(decrypted_text) # to print the decrypted text
 
 
